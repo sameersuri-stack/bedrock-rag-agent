@@ -19,3 +19,10 @@ PDFs in S3 -> Bedrock Knowledge Base (Titan Text Embeddings v2 + S3 Vectors) -> 
 - Image-only PDFs index as empty; use text-based PDFs.
 - Small models can skip tools or loop, so I added a retry limit and a tool-first system prompt.
 - Wikipedia reference sections add noise to retrieval.
+
+## Example
+Q: Who is Patrick Jane?
+A: Patrick Jane is the main character of the show "The Mentalist".
+
+Q: Who is Virat Kohli?
+A: A prominent Indian Cricketer.
